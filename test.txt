@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="outer">
+                <!-- <div id="profile"></div>
+                <div id="content">
+                    <form action="">
+                        <label for="">Username</label>
+                        <input type="text" />
+                    </form>
+                    <div>Monwell Partee</div>
+                    <div>UX / UI Designer</div> -->
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+                "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            margin: 0;
+            padding: 0;
+                background-image: url('bg.jpg');
+        }
+
+        #wrap {
+            position: relative;
+            width: 1260px;
+            height: auto;
+            margin-inline: auto;
+        
+        }
+        #outer {
+            position: relative;
+            width: 1260px;
+            height: 100vh;
+            /* background: url("image.jpg") no-repeat center center; */
+            background: #c2c2c2;
+            transform-origin: 0% 0%;
+            box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+            outline: 1px solid limegreen;
+        }
+
+
+    </style>
+    <script defer src="scale_pages.js"></script>
+</html>
